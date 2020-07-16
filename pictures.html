@@ -3,27 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Pictures Page</title>
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
   </head>
   <body>
-    <h1>These are images of places I've traveled to</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="experience.html">Experience</a>
+    <nav class="nav-bar">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="experience.html">Experience</a></li>
+      </ul>
     </nav>
-    <div class="images">
-      <h3>Wisconsin State Fair</h3>
-      <img src="Wisconsin.jpg" alt="Picture of Wisconsin state fair" height="220px" width="150px">
-      <p>On August of 2018 I went to Milwakee Wisconsin to visit family friends and I had a great time at the state fair!</p>
-      <h3>Downtown Chicago City</h3>
-      <img src="Chicago.jpg" alt="Picture of Downtown Chicago City" height="220px" width="150px">
-      <p>The same week that I was in Wisconsin I also visited Chicago and saw a Brewers vs Cubs game at Wrigley Field!</p>
-      <h3>Santa Monica Pier</h3>
-      <img src="SantaMonicaPier.jpg" alt="Picture of Santa Monica Pier" height="220px" width="150px">
-      <p>Also a few months before I went to the midwest, I went to Santa Monica Pier on a nice summer night.</p>
-      <h3>Seattle Public Market</h3>
-      <img src="Seattle.jpg" alt="Picture of Seattle Public Market" width="220px" hieght="150px">
-      <p>In the end of 2019 I took a trip to Seattle and visited beautiful landmarks as well as the Public Market.</p>
+    <header>
+      <h1>These are images of places I've traveled to</h1>
+    </header>
+    <div class="grid-container">
+      <div class="grid-item">
+        <h3>Wisconsin State Fair</h3>
+        <img src="Wisconsin.jpg" alt="Picture of Wisconsin state fair" height="240px" width="170px">
+        <p>On August of 2018 I went to Milwakee Wisconsin to visit family friends and I had a great time at the state fair!</p>
+      </div>
+      <div class="grid-item">
+        <h3>Downtown Chicago City</h3>
+        <img src="Chicago.jpg" alt="Picture of Downtown Chicago City" height="240px" width="170px">
+        <p>The same week that I was in Wisconsin I also visited Chicago and saw a Brewers vs Cubs game at Wrigley Field!</p>
+      </div>
+      <div class="grid-item">
+        <h3>Santa Monica Pier</h3>
+        <img src="SantaMonicaPier.jpg" alt="Picture of Santa Monica Pier" height="240px" width="170px">
+        <p>Also a few months before I went to the midwest, I went to Santa Monica Pier on a nice summer night.</p>
+      </div>
+      <div class="grid-item">
+        <h3>Seattle Public Market</h3>
+        <img src="Seattle.jpg" alt="Picture of Seattle Public Market" width="240px" hieght="170px">
+        <p>In the end of 2019 I took a trip to Seattle and visited beautiful landmarks as well as the Public Market.</p>
     </div>
+  </div>
     <footer>&copy; Copyright 2020, All Rights Reseverd | Juan Zaragoza </footer>
   </body>
 </html>
